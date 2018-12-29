@@ -1,9 +1,14 @@
+@import "./variables";
 html {
   height: 100%;
 }
 
 body {
-  height: 100%;
+  background: $background;
+
+  p {
+    margin: $space;
+  }
 }
 
 main {
@@ -12,18 +17,18 @@ main {
 }
 
 header {
-  background: teal;
-  color: black;
-  margin: 1em;
+  background: $accentColor;
+  color: $root-color;
+  margin: $space;
   padding: 1em;
   position: fixed;
   top: 0;
 }
 
 footer {
-  background: whitesmoke;
-  color: black;
-  margin: 0.5em;
+  background: $accentColor;
+  color: $root-color;
+  margin: $space;
   padding: 0.5em;
   position: fixed;
   bottom: 0;
