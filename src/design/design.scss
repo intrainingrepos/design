@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./mixins";
+
 html {
   height: 100%;
 }
@@ -32,4 +34,11 @@ footer {
   padding: 0.5em;
   position: fixed;
   bottom: 0;
+}
+
+.box {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
 }
