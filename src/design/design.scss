@@ -1,40 +1,8 @@
 @import "./variables";
 @import "./mixins";
-
-html {
-  height: 100%;
-}
-
-body {
-  background: $background;
-
-  p {
-    margin: $space;
-  }
-}
-
-main {
-  font-family: sans-serif;
-  font-size: 5px;
-}
-
-header {
-  background: $accentColor;
-  color: $root-color;
-  margin: $space;
-  padding: 1em;
-  position: fixed;
-  top: 0;
-}
-
-footer {
-  background: $accentColor;
-  color: $root-color;
-  margin: $space;
-  padding: 0.5em;
-  position: fixed;
-  bottom: 0;
-}
+@import "../core/base";
+@import "../core/header";
+@import "../core/footer";
 
 .box {
   -webkit-border-radius: 3px;
