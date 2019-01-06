@@ -1,8 +1,8 @@
-@import "./variables";
-@import "./mixins";
-@import "../core/base";
-@import "../core/header";
-@import "../core/footer";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./core/base.scss";
+@import "./core/header.scss";
+@import "./core/footer.scss";
 
 .box {
   -webkit-border-radius: 3px;
