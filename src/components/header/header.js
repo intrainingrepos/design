@@ -11,16 +11,16 @@ const Header = props => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Projects</a>
           </li>
           <li>
-            <a href="/">Home</a>
+            <a href="/">About</a>
           </li>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Contact</a>
           </li>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Blog</a>
           </li>
         </ul>
       </nav>
