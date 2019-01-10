@@ -24,10 +24,35 @@ const Content = props => {
       <p>
         <form>
           <fieldset>
-            <legend>Going To Make This Look Nice</legend>
             <label>
-              <span>Siobhan Niess</span>
-              <input type="text" name="name" placeholder="What is your name?" />
+              <span>First Name</span>
+              <input name="firstname" type="text" />
+            </label>
+            <label>
+              <span>Last Name</span>
+              <input name="lastname" type="text" />
+            </label>
+            <label>
+              <span>Activities</span>
+              <select name="activity">
+                <option value="hiking">Hiking</option>
+                <option value="skiing">Skiing</option>
+                <option value="camping">Camping</option>
+                <option value="snorkling">Snorkling</option>
+                <option value="motorcross">Motor Cross</option>
+              </select>
+            </label>
+            <label>
+              <span>Favorite activity to do</span>
+              <textarea name="topActivity" rows="5" cols="15" />
+            </label>
+            <label>
+              <span>Have fun!</span>
+              <input name="fun" type="checkbox" />
+            </label>
+            <label>
+              <span>Let's Go!</span>
+              <input name="go" type="radio" value="1" />
             </label>
           </fieldset>
         </form>
