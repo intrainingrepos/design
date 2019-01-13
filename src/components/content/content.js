@@ -22,40 +22,32 @@ const Content = props => {
         luctus, metus
       </p>
       <p>
-        <form>
-          <fieldset>
-            <label>
-              <span>First Name</span>
-              <input name="firstname" type="text" />
-            </label>
-            <label>
-              <span>Last Name</span>
-              <input name="lastname" type="text" />
-            </label>
-            <label>
-              <span>Activities</span>
-              <select name="activity">
-                <option value="hiking">Hiking</option>
-                <option value="skiing">Skiing</option>
-                <option value="camping">Camping</option>
-                <option value="snorkling">Snorkling</option>
-                <option value="motorcross">Motor Cross</option>
-              </select>
-            </label>
-            <label>
-              <span>Favorite activity to do</span>
-              <textarea name="topActivity" rows="5" cols="15" />
-            </label>
-            <label>
-              <span>Have fun!</span>
-              <input name="fun" type="checkbox" />
-            </label>
-            <label>
-              <span>Let's Go!</span>
-              <input name="go" type="radio" value="1" />
-            </label>
-          </fieldset>
-        </form>
+        <div class="form-style-6">
+          <h1>Activities</h1>
+          <form>
+            <input type="text" name="field1" placeholder="First Name" />
+            <input type="email" name="field2" placeholder="Last Name" />
+            <div id="formButton">
+              <label>Radio</label>
+              <input type="radio" name="field2" class="buttons" />
+              <label>Checkbox</label>
+              <input type="checkbox" name="field2" class="buttons" />
+              <label>Range</label>
+              <input type="range" name="field2" class="buttons" />
+            </div>
+            <label> What is your favorite activity? </label>
+            <input type="text" name="field2" placeholder="Favorite Activity" />
+            <select>
+              <option value="Options">Options</option>
+              <option value="Hiking">Hiking</option>
+              <option value="Swimming">Swimming</option>
+              <option value="Camping">Camping</option>
+              <option value="Fishing">Fishing</option>
+              <option value="Running">Running</option>
+            </select>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
       </p>
       <p>
         Pellentesque habitant morbi tristique senectus et netus et malesuada

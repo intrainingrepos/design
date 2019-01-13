@@ -1,4 +1,4 @@
-@import "/lib/variables.scss";
+// @import "../lib/variables.scss";
 
 html {
   height: 100%;
@@ -8,11 +8,6 @@ body {
   background: $background;
 
   p {
-    margin: $space;
+    padding-top: $space;
   }
-}
-
-main {
-  font-family: sans - serif;
-  font-size: 5px;
 }

@@ -1,12 +1,8 @@
-@import "/lib/variables.scss";
-@import "/lib/mixins.scss";
+@import "./lib/_variables.scss";
+@import "./lib/_mixins.scss";
 @import "./core/base.scss";
 @import "./core/header.scss";
 @import "./core/footer.scss";
-
-.box {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  border-radius: 3px;
-}
+@import "./core/_nav.scss";
+@import "./core/_forms.scss";
+@import "./core/main.scss";

@@ -1,0 +1,6 @@
+main {
+  font-family: sans - serif;
+  font-size: 5px;
+  @include flex(3);
+  @include flex-direction(column);
+}
