@@ -1,4 +1,39 @@
 // @import "../lib/variables.scss";
+@media (max-width: 480px) {
+  body {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    background: rgba(102, 101, 101, 0.308);
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    background: rgba(102, 101, 101, 0.308);
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    background: rgba(102, 101, 101, 0.308);
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    background: rgba(102, 101, 101, 0.308);
+  }
+}
 
 html {
   height: 100%;
